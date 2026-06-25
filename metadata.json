@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Versona",
+  "description": "Create your professional alter-ego and generate dynamic tailored resumes, cover letters, and email outreach for jobs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

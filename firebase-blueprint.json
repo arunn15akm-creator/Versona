@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "User": {
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "fullName": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "trialEndsAt": { "type": "string" },
+        "isSubscribed": { "type": "boolean" },
+        "selectedPlan": { "type": "string" },
+        "subscribedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "rules": {
+      "users": {
+        "schema": "User",
+        "description": "Registered user accounts containing subscription status, trial details, and active licensing attributes."
+      }
+    }
+  }
+}
